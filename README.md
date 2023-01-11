@@ -1,1 +1,1 @@
-# Gabor Szasz Homepage
+# BIO
