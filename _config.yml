@@ -31,10 +31,11 @@ twitter_username: ""
 github_username:  hunszasz
 date_format: '%B %-d, %Y'
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 minima:
   date_format: "%Y.%m.%-d."
 google_analytics: "G-NF6NN8XQ5M"
