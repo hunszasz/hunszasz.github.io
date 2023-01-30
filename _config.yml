@@ -34,6 +34,7 @@ date_format: '%B %-d, %Y'
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 minima:
   date_format: "%Y.%m.%-d."
 google_analytics: "G-NF6NN8XQ5M"
