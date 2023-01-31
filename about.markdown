@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 | --- | --- |
-| <div style="width=250px">![profile](/assets/szgk.jpg)</div> | Nevem Szász Gábor Krisztián, programtervező informatikus vagyok. A munkám a hobbim és fordítva. Remek családom van, csodás feleség, két nagyon cuki gyerek, kutyus és cica. A **holtig tanul az ember** közmondást nagyon igaznak érzem. |
+| ![profile](/assets/szgk.jpg){: width="250" } | Nevem Szász Gábor Krisztián, programtervező informatikus vagyok. A munkám a hobbim és fordítva. Remek családom van, csodás feleség, két nagyon cuki gyerek, kutyus és cica. A **holtig tanul az ember** közmondást nagyon igaznak érzem. |
 
 # Tanulmányok
 
