@@ -83,6 +83,6 @@ A csatlakozáshoz használt paraméterek:
 ![ora testcontainer](/assets/ora_testcontainer.webp)
 
 # Hasznos linkek
-* [GitHub projekt a teszthez]()
+* [GitHub projekt a teszthez](https://github.com/hunszasz/oracle-integration-test)
 * [Testcontainer](https://www.testcontainers.org/)
 * [fullstackcode.dev testcontainer post](https://fullstackcode.dev/2021/05/16/springboot-integration-testing-with-testcontainers/)
