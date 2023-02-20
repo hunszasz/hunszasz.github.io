@@ -35,6 +35,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 minima:
   date_format: "%Y.%m.%-d."
 google_analytics: "G-NF6NN8XQ5M"
