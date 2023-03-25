@@ -38,6 +38,9 @@ plugins:
 minima:
   date_format: "%Y.%m.%-d."
 google_analytics: "G-NF6NN8XQ5M"
+author:
+  name: Szász Gábor Krisztián
+  url: https://hunszasz.github.io/about/
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
