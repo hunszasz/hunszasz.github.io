@@ -5,8 +5,7 @@ date: 2023-03-23 07:53 +0100
 categories: [Fejlesztői környezet, Linux]
 seo.type: BlogPosting
 image: /assets/linux.webp
-description: A poszt célja, hogy ismertesse a Fedora 37 Cinnamon telepítését
-valamint egy felülnézeti rálátást biztosítson a Linux disztribúciókra. 
+description: A poszt célja, hogy ismertesse a Fedora 37 Cinnamon telepítését valamint egy felülnézeti rálátást biztosítson a Linux disztribúciókra. 
 ---
 
 # Cél
