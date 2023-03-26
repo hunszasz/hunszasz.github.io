@@ -105,13 +105,29 @@ Ebben segítség lehet ez a [lista](https://www.disk-image.com/faq-bootmenu.htm)
 
 ## Lépések
 
-* Install to Hard Drive
-* Nyelv kiválasztása
+* Install to Hard Drive \
+  A telepítést az alábbi ikonra kattintva lehet elkezdeni. \
+  ![Install to Hard Drive Icon](/assets/fedora_install/install_to_hard_drive.webp)
+* Nyelv kiválasztása \
+  ![Telepítő nyelvének kiválasztása](/assets/fedora_install/nyelv_valaszto.webp) \
+  A telepítő lépéseit az alábbi képen láthatjuk, ahol piros felirat jelzi a teendőinket. \
+  ![Telepítő lépései](/assets/fedora_install/lepesek.webp)
 * Telepítési cél
-  * hova települjön
-  * titkosítás (opcionális)
-  * hely felszabadítás (opcionális)
-* Rendszergazdai fiók
-* Felhasználói fiók
-* Telepítés 
-* Konfiguráció befejezése
+  * hova települjön \
+    A partíciókat automatikusan és kézzel is létre lehet hozni.
+    A meglévő partíciók törlését a **szabadítson fel helyet** jelölővel érhetjük el.
+    Titkosíthatjuk rendszerünket, boot során a rendszer kérni fogja az itt megadott jelszót. \
+    ![Telepítés helye](/assets/fedora_install/telepitesi_cel.webp)
+  * titkosítás (opcionális) \
+    Adjuk meg kétszer a kívánt jelszót. \
+    ![Titkosítás jelszava](/assets/fedora_install/titkositas.webp)
+  * hely felszabadítás (opcionális) \
+    Amennyiben a teljes rendelkezésre álló terület felszabadítható, - nincs másik op rendszer a gépen, egyéb megtartandó partíció - úgy kattintsunk az **Összes törlése** gombra. 
+    ![Partíciók törlése](/assets/fedora_install/torles.webp)
+* Rendszergazdai fiók \
+  ![Rendszergazdai fiók](/assets/fedora_install/rendszergazda.webp)
+* Felhasználói fiók \
+  ![Felhasználói fiók](/assets/fedora_install/felhasznalo.webp)
+* Konfiguráció befejezése \
+  Az alábbi gombbal tudjuk befejezni a telepítést. A következő boot-nál már az új rendszer fog indulni.
+  ![Konfiguráció befejezése](/assets/fedora_install/kesz.webp)
