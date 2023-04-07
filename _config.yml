@@ -27,16 +27,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   dolgok.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hunszasz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
+linkedin_username: hunszasz
 github_username:  hunszasz
-date_format: '%B %-d, %Y'
+date_format: '%Y.%m.%d.'
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 minima:
-  date_format: "%Y.%m.%-d."
+  date_format: "%Y.%m.%d."
 google_analytics: "G-NF6NN8XQ5M"
 # Exclude from processing.
 # The following items will not be processed, by default.
