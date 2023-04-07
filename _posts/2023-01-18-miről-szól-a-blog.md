@@ -22,6 +22,8 @@ A blog célja alapvetően tudásmegosztás, témaköre az alábbi kategóriákra
     Érdekesnek vélt tartalmak kategóriája
 * **Ti kértétek** \
     Tőletek érkezett kérések kategóriája
+* **Trend** \
+    Trendkutatásból érkező kategória, 
 * **Linux** \
     Linux rendszerekhez kapcsolódó kategória
 
