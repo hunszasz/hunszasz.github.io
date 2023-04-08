@@ -28,7 +28,7 @@ A Spring Boot egy nagyon népszerű Java keretrendszer, amely lehetővé teszi a
 
 1. Első lépésként hozzunk létre egy új Spring Boot projektet. \
    Inicializáljunk egy projektet a [Spring Initializer](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.0.5&packaging=jar&jvmVersion=17&groupId=hu.hunszasz.example.spring&artifactId=spring-jackson&name=Spring%20Jackson%20Demo%20Config&description=Demo%20project%20for%20Spring%20Boot&packageName=hu.hunszasz.example.spring.spring-jackson&dependencies=web) segítségével az alábbi beállításokkal. \
-    ![img.png](/assets/initializer.png) &nbsp;
+    ![img.png](/assets/initializer.webp) &nbsp;
 2. Hozzunk létre egy egyszerű osztályt, amely tartalmaz néhány mezőt. \
    Adjuk a függőségek közé a [Lombok projektet](https://projectlombok.org/), hogy még egyszerűbb legyen a kódunk felépítése:
    
@@ -153,7 +153,7 @@ A Spring Boot egy nagyon népszerű Java keretrendszer, amely lehetővé teszi a
        @Autowired
        ObjectMapper objectMapper;
    
-       @GetMapping("/testData")
+       @PostMapping("/testData")
        public TestData getTestData() throws JsonProcessingException {
            TestData tst = TestData.builder().text("tst")
                    .aBoolean(true)
@@ -177,37 +177,37 @@ A Spring Boot egy nagyon népszerű Java keretrendszer, amely lehetővé teszi a
    </dependency>
    ```
 8. Ellenőrizzük a konzolon kiírt és REST lábon visszaadott json formáját. Nyissuk meg böngészőben a [Swagger ui-t a http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
-   ![img.png](/assets/swagger.png)
+   ![img.png](/assets/swagger.webp)
 
    Illetve a konzol
 
-   ![img.png](/assets/console.png)
+   ![img.png](/assets/console.webp)
 
 9. Hozzuk létre a GET végpontunkat tesztelő metódust. Ehhez első körben a teszt metódusokat befoglaló osztályt kell felannotálni a **@WebMvcTest(TestController.class)**, illetve be kell kötni a MockMvc objektumot: - a Service réteg tesztelő metódusához hasonlóan, az elvárt formátumot adjuk meg - az alábbiak szerint:
    
-   ```java
-    @WebMvcTest(TestController.class)
-    class SpringJacksonApplicationTests{
-       @Autowired
-       MockMvc mockMvc;
+    ```java
+     @WebMvcTest(TestController.class)
+     class SpringJacksonApplicationTests{
+        @Autowired
+        MockMvc mockMvc;
    
-       @Test
-       void doTestWithRest() throws Exception {
-           mockMvc.perform(MockMvcRequestBuilders.get("/testData").accept(MediaType.APPLICATION_JSON))
-           .andDo(print())
-           .andExpect(status().isOk())
-           .andExpect(MockMvcResultMatchers.jsonPath("$.text").doesNotExist())
-           .andExpect(MockMvcResultMatchers.jsonPath("$.anInt").value(42))
-           .andExpect(MockMvcResultMatchers.jsonPath("$.aboolean").value(false))
-           .andExpect(MockMvcResultMatchers.jsonPath("$.localDateTime").value("2023.04.06 19:30"));
-       }
-       /*...*/
-    }
-    ```
-    Láthatjuk a kimeneten, hogy valami nem stimmel, a teszt nem fut le hiba nélkül:
-    ```shell
-    java.lang.AssertionError: Got a list of values [2023,4,6,19,30,40] instead of the expected single value 2023.04.06 19:30
-    ```
+        @Test
+        void doTestWithRest() throws Exception {
+            mockMvc.perform(MockMvcRequestBuilders.get("/testData").accept(MediaType.APPLICATION_JSON))
+            .andDo(print())
+            .andExpect(status().isOk())
+            .andExpect(MockMvcResultMatchers.jsonPath("$.text").doesNotExist())
+            .andExpect(MockMvcResultMatchers.jsonPath("$.anInt").value(42))
+            .andExpect(MockMvcResultMatchers.jsonPath("$.aboolean").value(false))
+            .andExpect(MockMvcResultMatchers.jsonPath("$.localDateTime").value("2023.04.06 19:30"));
+        }
+        /*...*/
+     }
+     ```
+     Láthatjuk a kimeneten, hogy valami nem stimmel, a teszt nem fut le hiba nélkül:
+     ```shell
+     java.lang.AssertionError: Got a list of values [2023,4,6,19,30,40] instead of the expected single value 2023.04.06 19:30
+     ```
 10. Konfiguráljuk az MVC-t, hogy a korábban beállított ObjectMapper-t használja. Ehhez hozzunk létre egy új konfigurátort:
     
     ```java
@@ -230,6 +230,8 @@ A Spring Boot egy nagyon népszerű Java keretrendszer, amely lehetővé teszi a
     }
     ```
 A következő teszt futás már megfelelő eredményt fog adni. További információkért, lehetőségekért ajánlom a lenti linkeket.
+
+A forráskód megtalálható az következő [GitHub repository-ban](https://github.com/hunszasz/spring-jackson).
 
 # Hasznos linkek
 * [Jackson GitHub](https://github.com/FasterXML/jackson)
