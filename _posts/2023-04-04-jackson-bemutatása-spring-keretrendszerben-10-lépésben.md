@@ -231,7 +231,7 @@ A Spring Boot egy nagyon népszerű Java keretrendszer, amely lehetővé teszi a
     ```
 A következő teszt futás már megfelelő eredményt fog adni. További információkért, lehetőségekért ajánlom a lenti linkeket.
 
-A forráskód megtalálható az következő [GitHub repository-ban](https://github.com/hunszasz/spring-jackson).
+A forráskód megtalálható a következő [GitHub repository-ban](https://github.com/hunszasz/spring-jackson).
 
 # Hasznos linkek
 * [Jackson GitHub](https://github.com/FasterXML/jackson)
