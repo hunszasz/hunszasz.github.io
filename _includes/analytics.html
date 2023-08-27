@@ -5,5 +5,7 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', '{{ site.google_analytics }}', { cookie_flags: 'SameSite=None;Secure' });
+  gtag('config', '{{ site.google_analytics }}', {
+      cookie_domain: 'hunszasz.github.io',
+      cookie_flags: 'SameSite=None;Secure' });
 </script>
