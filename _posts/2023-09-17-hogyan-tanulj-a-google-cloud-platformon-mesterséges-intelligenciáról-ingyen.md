@@ -4,7 +4,7 @@ title: Hogyan tanulj a Google Cloud Platformon Mesterséges Intelligenciáról i
 date: 2023-09-17 21:23 +0200
 categories: [Hasznos, Trend]
 seo.type: BlogPosting
-image: /assets/badget.webp
+image: /assets/AI-post-header.drawio.svg
 description: megtudhatod, hogyan tudsz mesterséges intelligenciáról tanulni ingyen a Google Cloud Platform segítségével
 ---
 
