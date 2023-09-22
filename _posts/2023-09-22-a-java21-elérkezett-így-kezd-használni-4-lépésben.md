@@ -100,6 +100,6 @@ Az IDEA-ban delegáljunk a build/run műveleteket a maven-re - amely a hot deplo
 ![delegate](/assets/delegate_runner.webp)
 
 # Hasznos linkek
-- https://dev.to/khmarbaise/using-jdk21-preview-features-andor-incubator-classes-3dc1
-- https://www.oracle.com/java/technologies/javase/21-relnote-issues.html
-- https://github.com/hunszasz/java21
+- [dev.to](https://dev.to/khmarbaise/using-jdk21-preview-features-andor-incubator-classes-3dc1)
+- [oracle.com release notes](https://www.oracle.com/java/technologies/javase/21-relnote-issues.html)
+- [github.com/hunszasz java21 repo](https://github.com/hunszasz/java21)
