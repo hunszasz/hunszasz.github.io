@@ -47,6 +47,11 @@ Amennyiben érdekes a számodra, már ki is próbálhatod a modell képességeit
 ![huggingface](/assets/huggingface.webp)
 ![huggingface](/assets/usage.webp)
 
+## Felhasználás
+
+Érdekel hogy tudod saját gépről host-olni? Programozáshoz segítségül hívnád?
+Olvass bele a [Így használd a Gemma-t Codeium/Copilot alternatívaként IntelliJ/VS Code IDE-ben.](/hasznos/trend/2024/02/27/így-használd-a-gemma-t-codeium-copilot-alternatívaként-intellij-vs-code-ide-ben.html) cikkbe!
+
 ## Linkek
 - [Gemma Google Dev](https://ai.google.dev/gemma/?utm_source=keyword&utm_medium=referral&utm_campaign=gemma_cta&utm_content)
 - [HuggingFace Gemma Chat fine tuned](https://huggingface.co/chat/settings/google/gemma-7b-it)
