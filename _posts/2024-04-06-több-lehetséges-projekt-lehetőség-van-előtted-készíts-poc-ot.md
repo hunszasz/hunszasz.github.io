@@ -51,7 +51,7 @@ problémákat, és korrekciós intézkedéseket hozhatnak.
 # Néhány ötlet a munka felgyorsítására
 
 A PoC-k számos különböző API-t is használhatnak a funkcionalitás 
-bővítésére. A https://github.com/public-apis/public-apis repository-ban számos nyilvános 
+bővítésére. A [Public-Apis GitHub repo](https://github.com/public-apis/public-apis) repository-ban számos nyilvános 
 API található, amelyeket a PoC-okban lehet használni. 
 Néhány példa a lehetséges használatra:
 
