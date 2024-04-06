@@ -20,7 +20,7 @@ Ha elolvasod a bejegyzést, megtudhatod, hogy
 # Proof of Concept (PoC)
 
 A Proof of Concept (PoC) műszaki és üzleti területen is használt fogalom. 
-Szoftverfejlesztési során egy ötlet vagy koncepció prototípusát hozzák 
+Szoftverfejlesztés során egy ötlet vagy koncepció prototípusát hozzák 
 létre a megvalósíthatóságának és a potenciális értékének becslése céljából. 
 A PoC-k gyakran rövid időn belül, minimális erőforrással készülnek, és arra szolgálnak, 
 hogy gyorsan validálják az ötleteket, mielőtt jelentős befektetésre kerülne sor.
